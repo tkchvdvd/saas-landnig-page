@@ -1,12 +1,13 @@
 import './App.css'
+import Header from "./Sections/Header.jsx";
 
 function App() {
 
 
     return (
-        <>
-            app
-        </>
+        <main className="overflow-hidden">
+            <Header/>
+        </main>
     )
 }
 
